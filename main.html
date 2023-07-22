@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Weight Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vehicle Weight Management System</h1>
+        <div class="input-container">
+            <label for="vehicle-type">Vehicle Type:</label>
+            <input type="text" id="vehicle-type" placeholder="Enter vehicle type">
+        </div>
+        <div class="input-container">
+            <label for="vehicle-weight">Vehicle Weight (in kg):</label>
+            <input type="number" id="vehicle-weight" placeholder="Enter vehicle weight">
+        </div>
+        <button id="add-button">Add Vehicle</button>
+        <div id="vehicle-list">
+        </div>
+        <div class="total-weight">
+            <strong>Total Weight:</strong>
+            <span id="total-weight">0 kg</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
